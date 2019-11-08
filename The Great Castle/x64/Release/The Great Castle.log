@@ -1,0 +1,30 @@
+﻿  Button.cpp
+  Entity.cpp
+  Game.cpp
+  GameState.cpp
+  main.cpp
+  MainMenuState.cpp
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:         and
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:             T=float
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,78): warning C4244:         ]
+  State.cpp
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:         and
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:             T=float
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(52,57): warning C4244:         ]
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 544 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  The Great Castle.vcxproj -> C:\Users\Redzer0\Desktop\The Great Castle\x64\Release\The Great Castle.exe
