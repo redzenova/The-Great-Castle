@@ -9,6 +9,9 @@ class MainMenuState :
 {
 private:
 	//Variables
+	sf::Texture logoTexture;
+	sf::RectangleShape logo;
+
 	sf::Texture bgTextue;
 	sf::RectangleShape background;
 	sf::Font font;
@@ -16,6 +19,7 @@ private:
 	std::map<std::string, Button*> buttons;
 
 	//Functions
+	void initLogo();
 	void initVariables();
 	void initBackground();
 	void initFonts();

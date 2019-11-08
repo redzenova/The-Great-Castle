@@ -1,6 +1,17 @@
 #include "MainMenuState.h"
 
+
 //Initionlization Function
+void MainMenuState::initLogo()
+{
+	this->logo.setPosition(365, 20);
+	this->logo.setSize(sf::Vector2f(212.f,224.f));
+	if (!this->logoTexture.loadFromFile("Resource/image/TGC logo.png"))
+	{
+		std::cout << "ERROR::MAIN_MENU_STATE::FALED_TO_LOAD_LOGO_TEXTURE" << "\n";
+	}
+	this->logo.setTexture(&this->logoTexture);
+}
 void MainMenuState::initVariables()
 {
 
@@ -16,15 +27,18 @@ void MainMenuState::initBackground()
 		)
 	);
 
-	this->bgTextue.loadFromFile("");
-	this->background.setTexture();
+	if (!this->bgTextue.loadFromFile("Resource/image/backgound.png"))
+	{
+		std::cout << "ERROR::MAIN_MENU_STATE::FALED_TO_LOAD_BACKGROUND_TEXTURE" << "\n";
+	}
+	this->background.setTexture(&this->bgTextue);
 }
 
 void MainMenuState::initFonts()
 {
-	if (this->font.loadFromFile("Fonts/RSU_Regular.ttf"))
+	if (!this->font.loadFromFile("Fonts/RSU_Regular.ttf"))
 	{
-		//throw("ERROR::MAINMENUSTATE::COULD NOT LOAD FONT");
+		std::cout << "ERROR::MAINMENUSTATE::COULD NOT LOAD FONT" << "\n";
 	}
 }
 
@@ -50,12 +64,20 @@ void MainMenuState::initKeybinds()
 
 void MainMenuState::initButton()
 {
-	this->buttons["GAME_STATE"] = new Button(100, 100, 150, 50,
+	this->buttons["GAME_STATE"] = new Button(400, 260, 150, 45,
 		&this->font, "NEW GAME",
 		sf::Color(70, 70, 70, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 
-	this->buttons["EXIT_STATE"] = new Button(100, 300, 150, 50,
-		&this->font, "EXIT",
+	this->buttons["SCORE"] = new Button(400, 310, 150, 45,
+		&this->font, "SCORE",
+		sf::Color(100, 100, 100, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
+
+	this->buttons["OPTION"] = new Button(400, 360, 150, 45,
+		&this->font, "OPTION",
+		sf::Color(100, 100, 100, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
+
+	this->buttons["EXIT_STATE"] = new Button(400, 410, 150, 45,
+		&this->font, "QUIT",
 		sf::Color(100, 100, 100, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 }
 
@@ -63,6 +85,9 @@ void MainMenuState::initButton()
 MainMenuState::MainMenuState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states)
 	: State(window, supportedKeys, states)
 {	
+	this->initVariables();
+	this->initBackground();
+	this->initLogo();
 	this->initFonts();
 	this->initKeybinds();
 	this->initButton();
@@ -70,7 +95,6 @@ MainMenuState::MainMenuState(sf::RenderWindow* window, std::map<std::string, int
 
 
 	this->background.setSize(sf::Vector2f(window->getSize().x, window->getSize().y));
-	this->background.setFillColor(sf::Color::Cyan);
 }
 
 MainMenuState::~MainMenuState()
@@ -103,13 +127,25 @@ void MainMenuState::updateButtons()
 		it.second->update(this->mousePosView);
 	}
 
-	//New Game
+	//NEW GAME
 	if (this->buttons["GAME_STATE"]->isPressed())
 	{
 		this->states->push(new GameState(this->window, this->supportedKeys, this->states));
 	}
 
-	//Quit the Game
+	//SCORE
+	if (this->buttons["SCORE"]->isPressed())
+	{
+		
+	}
+
+	//OPTION
+	if (this->buttons["OPTION"]->isPressed())
+	{
+		
+	}
+
+	//QUIT
 	if (this->buttons["EXIT_STATE"]->isPressed())
 	{
 		this->quit = true;
@@ -142,6 +178,17 @@ void MainMenuState::render(sf::RenderTarget* target)
 		target = this->window;
 
 	target->draw(this->background);
+	target->draw(this->logo);
 
 	this->renderButtons(target);
+
+	//Remove 
+	/*sf::Text mouseText;
+	mouseText.setPosition(this->mousePosView.x , this->mousePosView.y - 50 );
+	mouseText.setFont(this->font);
+	mouseText.setCharacterSize(16);
+	std::stringstream ss;
+	ss << this->mousePosView.x << " " << this->mousePosView.y;
+	mouseText.setString(ss.str());
+	target->draw(mouseText);*/
 }

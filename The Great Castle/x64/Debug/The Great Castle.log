@@ -1,4 +1,20 @@
-﻿  Game.cpp
-  main.cpp
-  Generating Code...
+﻿  MainMenuState.cpp
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:         and
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:             T=float
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,78): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:         and
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:             T=float
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(97,57): warning C4244:         ]
   The Great Castle.vcxproj -> C:\Users\Redzer0\Desktop\The Great Castle\x64\Debug\The Great Castle.exe
