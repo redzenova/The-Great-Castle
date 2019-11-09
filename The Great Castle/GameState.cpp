@@ -23,7 +23,7 @@ void GameState::initKeybinds()
 
 void GameState::initTexture()
 {
-	if(!this->textures["PLAYER_IDLE"].loadFromFile("Resource/sprite/Player/0.png"));
+	if(!this->textures["PLAYER_SHEET"].loadFromFile("Resource/sprite/Player/player.png"));
 	{
 		std::cout << "ERROR::GAME_STATE::COULD NOT_LOAD_PLAYER_TEXTURE" << "\n";
 	}
@@ -31,7 +31,7 @@ void GameState::initTexture()
 
 void GameState::initPlayer()
 {
-	this->player = new Player(0, 0, this->textures["PLAYER_IDLE"]);
+	this->player = new Player(0, 0, this->textures["PLAYER_SHEET"]);
 }
 
 
