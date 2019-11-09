@@ -19,6 +19,9 @@
     <Filter Include="Entities">
       <UniqueIdentifier>{980d0545-7cd6-4513-a0fb-4e7069b03954}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Entities\Components">
+      <UniqueIdentifier>{20809468-c7a6-48b4-9f2e-5e93ad1fa7cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -43,7 +46,10 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Entities\Components</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -66,7 +72,10 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Entities\Components</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

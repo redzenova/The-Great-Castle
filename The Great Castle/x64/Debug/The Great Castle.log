@@ -1,2 +1,50 @@
-﻿  GameState.cpp
+﻿  MainMenuState.cpp
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,91): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,91): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,91): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,91): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,91): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,57): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,57): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,57): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,57): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(7,57): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(68,35): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(68,35): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(68,35): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(68,35): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(68,35): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(76,35): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(76,35): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(76,35): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(76,35): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(76,35): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(84,35): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(84,35): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(84,35): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(84,35): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(84,35): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(92,35): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(92,35): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(92,35): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(92,35): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(92,35): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:         and
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:             T=float
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,78): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:         with
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:             T=unsigned int
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:         ]
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:         and
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:         [
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:             T=float
+C:\Users\Redzer0\Desktop\The Great Castle\The Great Castle\MainMenuState.cpp(113,57): warning C4244:         ]
   The Great Castle.vcxproj -> C:\Users\Redzer0\Desktop\The Great Castle\x64\Debug\The Great Castle.exe

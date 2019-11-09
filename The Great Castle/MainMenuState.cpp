@@ -4,7 +4,7 @@
 //Initionlization Function
 void MainMenuState::initLogo()
 {
-	this->logo.setPosition(365, 20);
+	this->logo.setPosition((this->window->getSize().x / 2) - 115, (this->window->getSize().x / 32));
 	this->logo.setSize(sf::Vector2f(212.f,224.f));
 	if (!this->logoTexture.loadFromFile("Resource/image/TGC logo.png"))
 	{
@@ -64,20 +64,36 @@ void MainMenuState::initKeybinds()
 
 void MainMenuState::initButton()
 {
-	this->buttons["GAME_STATE"] = new Button(400, 260, 150, 45,
-		&this->font, "NEW GAME",
+	this->buttons["GAME_STATE"] = new Button(
+		(this->window->getSize().x / 2) - 85, 
+		(this->window->getSize().x / 16) * 4.5f,
+		150, 45,
+		&this->font, "NEW GAME", 28,
+		sf::Color::Black, sf::Color::White, sf::Color(20, 20, 20, 200),
 		sf::Color(70, 70, 70, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 
-	this->buttons["SCORE"] = new Button(400, 310, 150, 45,
-		&this->font, "SCORE",
+	this->buttons["SCORE"] = new Button(
+		(this->window->getSize().x / 2) - 85,
+		(this->window->getSize().x / 16) *5.5f,
+		150, 45,
+		&this->font, "SCORE", 28,
+		sf::Color::Black, sf::Color::White, sf::Color(20, 20, 20, 200),
 		sf::Color(100, 100, 100, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 
-	this->buttons["OPTION"] = new Button(400, 360, 150, 45,
-		&this->font, "OPTION",
+	this->buttons["OPTION"] = new Button(
+		(this->window->getSize().x / 2) - 85,
+		(this->window->getSize().x / 16) * 6.5f,
+		150, 45,
+		&this->font, "OPTION", 28,
+		sf::Color::Black, sf::Color::White, sf::Color(20, 20, 20, 200),
 		sf::Color(100, 100, 100, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 
-	this->buttons["EXIT_STATE"] = new Button(400, 410, 150, 45,
-		&this->font, "QUIT",
+	this->buttons["EXIT_STATE"] = new Button(
+		(this->window->getSize().x / 2) - 85,
+		(this->window->getSize().x / 16) * 7.5f,
+		150, 45,
+		&this->font, "QUIT", 28,
+		sf::Color::Black, sf::Color::White, sf::Color(20, 20, 20, 200),
 		sf::Color(100, 100, 100, 200), sf::Color(150, 150, 150, 200), sf::Color(20, 20, 20, 200));
 }
 
