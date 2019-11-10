@@ -16,6 +16,9 @@
 #include <stack>
 #include <map>
 
+enum movement_states { IDLE = 0, MOVING, MOVING_LEFT, MOVING_RIGHT};
+
+
 class MovementComponent
 {
 private:
@@ -39,6 +42,8 @@ public:
 	const sf::Vector2f& getVelocity() const;
 
 	//Functions
+	const bool getState(const short unsigned state) const;
+
 	void move(const float x, const float y, const float& dt);
 	void update(const float& dt);
 };

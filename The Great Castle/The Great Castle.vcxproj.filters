@@ -54,6 +54,9 @@
     <ClCompile Include="AnimationComponent.cpp">
       <Filter>Entities\Components</Filter>
     </ClCompile>
+    <ClCompile Include="HitboxComponent.cpp">
+      <Filter>Entities\Components</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -81,6 +84,9 @@
       <Filter>Entities\Components</Filter>
     </ClInclude>
     <ClInclude Include="AnimationComponent.h">
+      <Filter>Entities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxComponent.h">
       <Filter>Entities\Components</Filter>
     </ClInclude>
   </ItemGroup>

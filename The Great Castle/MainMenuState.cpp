@@ -175,7 +175,7 @@ void MainMenuState::update(const float& dt)
 
 }
 
-void MainMenuState::renderButtons(sf::RenderTarget* Target)
+void MainMenuState::renderButtons(sf::RenderTarget& Target)
 {
 	for (auto& it : this->buttons)
 	{
@@ -191,7 +191,7 @@ void MainMenuState::render(sf::RenderTarget* target)
 	target->draw(this->background);
 	target->draw(this->logo);
 
-	this->renderButtons(target);
+	this->renderButtons(*target);
 
 	//Remove 
 	/*sf::Text mouseText;
